@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-image: url(../imG/bg.png);
+}
+
+
+
+.container {
+    border-radius: 55px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background-color: rgba(114, 114, 114, 0.815);
+    width: 360px;
+    height: 755px;
+    margin-top: 50px;
+    position: absolute;
+    z-index: 9999;
+    margin-left: 5px;
+}
+
+.cell {
+    background-image: url(../imG/FUNDUE1.png);
+    background-size: cover;
+    width: 370px;
+    height: 760px;
+    margin-top: 50px;
+    position: absolute;
+    z-index: 9999;
+
+}
+
+.info {
+
+    width: 360px;
+    height: 750px;
+    margin-top: 90px;
+    position: absolute;
+    z-index: 9999;
+}
+
+input[type="text"] {
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid rgb(24, 24, 24);
+    width: 85%;
+    margin-left: 15px;
+    margin-bottom: 10px;    
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+input[type="submit"] {
+    
+    padding: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    width: 92%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(54, 54, 54);
+    color: aliceblue;
+    margin-left: 10px;
+}
+
+input[type="submit"]:hover {
+    background: rgba(63, 57, 57, 0.521);
+    color: #000000;
+    padding: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    width: 92%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+input [type="radio"] {
+    color: aliceblue;
+}
+.radioss{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 25px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+
+select {
+    width: 90%;
+    margin-left: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    border-color: #000000;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+}
+
+textarea {
+    font-size: 20px;
+    margin-left: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    width: 83%;
+    color: #fff;
+    text-align: center;
+    border-color: #000000;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.726);
+}
+

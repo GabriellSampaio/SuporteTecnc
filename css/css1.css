@@ -1,0 +1,92 @@
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url(../img/fundo3.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  border-radius: 20px;
+  display: flex;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  width: 350px;
+  height: auto;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.cells {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+}
+
+.containerRes {
+  width: 100%;
+  text-align: center;
+
+}
+
+p {
+  font-size: 20px;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.titulo{
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 15px 25px;
+  border-radius: 10px;
+  text-align: center;
+  letter-spacing: 2px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.5);
+}
+
+.container ul {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  width: 90%;
+  margin: 10px auto;
+  color: #fff;
+}
+
+.quadrado,
+.quadrado1 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.7);
+}
+
+/*.quadrado1 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffeb3b;
+  text-align: center;
+}
+
